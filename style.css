@@ -1,0 +1,115 @@
+.barcode{
+    width: 500px;
+    color: blue;
+    border: 3px solid rgb(14, 12, 12) ;
+    text-align: center;
+    background-color: brown;
+    padding: 20px;
+    margin-left: 400px;
+}
+.text{
+    width: 500px;
+    color: rgb(20, 20, 236);
+    border: 3px solid rgb(14, 12, 12) ;
+    text-align: center;
+    background-color: rgb(228, 222, 222);
+    padding: 20px;
+    margin-left: 400px;
+}
+#mpn,#search,#barcode{
+    width: 275px;
+    text-align: center;
+    margin: 10px;
+
+}
+#mpn:hover,#search:hover,#barcode:hover{
+    background-color: burlywood;
+}
+button{
+    margin: 10px;
+}
+.result{
+    width: 500px;
+    color: blue;
+    border: 3px solid rgb(14, 12, 12) ;
+    text-align: center;
+    background-color: rgb(137, 191, 223);
+    padding: 20px;
+    margin-left: 400px;
+}
+/*#canvasHolder{
+    position:absolute;
+    margin: 0;
+    left: 0px;
+    right: 0;
+    top: 0px;
+    bottom: 0;
+    /*z-index: -1;*/
+    /*navbar*/
+  .navbar{
+      border:3px solid black!important;
+      background-image: url('bc.png');
+      background-size: 80px;
+      margin-left: 50px;
+      margin-right: 50px;   
+  }
+  .nav{
+      padding: 0px;
+  }
+  .navbar-nav{
+      color: black;
+  }
+  .navbar-header{
+      background-color: black;
+      margin: 4px;
+  }
+  .navbar-right{
+      color: black;
+      margin: 10px;
+  }
+  #imagelogo{
+      height: 60px;
+      border:5px solid black!important; 
+  }
+  #login{
+      margin: 40px;
+      padding: 20px;
+  }
+  #home{
+    font-size: 15px;
+    color:white!important;
+    background-color: black!important;
+    border-radius: 10px;
+    margin-right: 10px;
+    margin-left: 10px;
+    margin-top: 4px;
+}
+#find{
+    font-size: 15px;
+    color: white!important;
+    background-color: black!important;
+    border-radius: 10px;
+    margin-top: 4px;
+}
+#logbutton{
+  font-size: 15px;
+  color: white!important;
+  background-color: black!important;
+  border-radius: 10px;
+  margin-right: 10px;
+  margin-top: 4px;
+}
+ /*login*/
+  .border{
+    border: 1px solid #dee2e6!important;
+    margin: 50px;
+    width: 400px;
+    margin-left: 450px!important;
+  }
+  .p-5{
+    padding: 3rem!important;
+  }
+ .fa{
+      font-size:x-large!important;
+  }
+ 
