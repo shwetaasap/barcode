@@ -49,6 +49,4 @@ function codeData(data) {
 
         var reviews = document.getElementsByClassName("reviews")
         reviews[0].innerHTML = "<h3>Reviews = </h3>" + data.reviews;
-       
-   
 };
