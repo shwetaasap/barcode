@@ -1,41 +1,33 @@
+/*navbar*/
 .barcode{
     width: 500px;
-    color: blue;
+    color: rgb(1, 1, 5);
     border: 3px solid rgb(14, 12, 12) ;
     text-align: center;
-    background-color: brown;
+    background-color: rgb(44, 43, 43);
     padding: 20px;
-    margin-left: 400px;
+    margin-left: 350px;
 }
 .text{
     width: 500px;
-    color: rgb(20, 20, 236);
+    color: rgb(6, 6, 10);
     border: 3px solid rgb(14, 12, 12) ;
     text-align: center;
     background-color: rgb(228, 222, 222);
     padding: 20px;
-    margin-left: 400px;
+    margin-left: 350px;
 }
-#mpn,#search,#barcode{
+#barcode{
     width: 275px;
     text-align: center;
     margin: 10px;
 
 }
-#mpn:hover,#search:hover,#barcode:hover{
+#barcode:hover{
     background-color: burlywood;
 }
 button{
     margin: 10px;
-}
-.result{
-    width: 500px;
-    color: blue;
-    border: 3px solid rgb(14, 12, 12) ;
-    text-align: center;
-    background-color: rgb(137, 191, 223);
-    padding: 20px;
-    margin-left: 400px;
 }
 /*#canvasHolder{
     position:absolute;
@@ -48,7 +40,7 @@ button{
     /*navbar*/
   .navbar{
       border:3px solid black!important;
-      background-image: url('bc.png');
+      background-image: url('bc.jpg');
       background-size: 80px;
       margin-left: 50px;
       margin-right: 50px;   
@@ -99,7 +91,22 @@ button{
   margin-right: 10px;
   margin-top: 4px;
 }
+#list{
+  font-size: 15px;
+  color: white!important;
+  background-color: black!important;
+  border-radius: 10px;
+  margin-left: 10px;
+  margin-top: 4px;
+}
  /*login*/
+  .border{
+    border: 1px solid #dee2e6!important;
+    margin: 50px;
+    width: 400px;
+    margin-left: 450px!important;
+  }
+ /*addbarcode*/
   .border{
     border: 1px solid #dee2e6!important;
     margin: 50px;
@@ -112,4 +119,53 @@ button{
  .fa{
       font-size:x-large!important;
   }
- 
+/*result output in DOM*/
+.result{
+    width: 500px;
+    color: rgb(13, 13, 14);
+    border: 3px solid rgb(14, 12, 12);
+    background-color: rgb(236, 241, 243);
+    padding: 20px;
+    margin-left: 350px;
+    float: left;
+}
+/*footer barcode page(With the introduction of Flexbox, this has become quite easy without much hacking.
+ align-self: flex-end on the child element will align it along the cross-axis.)*/
+.bottom {
+    display: flex;
+  }
+  .container {
+    align-self: flex-end;
+    margin-top: 600px;
+    float: left;
+  }
+  /*mainpage image*/
+  .imagehead{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 75%;
+  }
+  /*background color*/
+  #background{
+      background-color: rgb(180, 179, 179);
+  }
+  /*background color form page*/
+  .barcode1{
+    width: 500px;
+    color: blue;
+    border: 3px solid rgb(14, 12, 12) ;
+    text-align: center;
+    background-color: rgb(199, 194, 194);
+    padding: 20px;
+    margin-left: 400px;
+}
+/*color text in result*/
+.result h3{
+    color: black;
+}
+/*color text in result*/
+.deco{
+    color: azure;
+    background-color: black;
+}
